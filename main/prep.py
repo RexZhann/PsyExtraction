@@ -28,6 +28,7 @@ def read_txts_to_list(folder_path):
                 # txt_texts.append(full_text.split('\n\n'))
 
                 txt_texts.append(segmenter.segment(full_text.lower()))
+
     return txt_texts
 
 
@@ -46,12 +47,15 @@ def read_pdfs_to_list(folder_path):
                 full_text = re.sub(r"\xa0", " ", full_text)
                 full_text = re.sub(r"- ", "", full_text)
                 pdf_texts.append(segmenter.segment(full_text.lower()))
+
     return pdf_texts
 
 
 # function for filtering out the sentences that includes the keyword
 def find_related_sent(keyword, sentences, win_size=5):
+
     related_sent = []
+
     for sent_per_text in sentences:
         for i, sent in enumerate(sent_per_text):
             if keyword.lower() in sent:
@@ -62,7 +66,14 @@ def find_related_sent(keyword, sentences, win_size=5):
                             related_sent.append(sent_per_text[j][501: ])
                         else:
                             related_sent.append(sent_per_text[j])
-    return related_sent
+
+    articles = list(set(related_sent))
+    articles = [phrase for phrase in articles if len(phrase) > 4]
+
+    if len(articles) > 450:
+        return articles[30:480]
+    else:
+        return articles
 
 
 folder_path = 'D:\\RexZhann\\nlp\\papers'
