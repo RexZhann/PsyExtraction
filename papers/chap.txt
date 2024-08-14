@@ -1,0 +1,1244 @@
+F00-F09
+Organic, including symptomatic, mental disorders
+
+Overview of this block
+
+F00 Dementia in Alzheimer's disease
+     F00.0 Dementia in Alzheimer's disease with early onset
+     F00.1 Dementia in Alzheimer's disease with late onset
+     F00.2 Dementia in Alzheimer's disease, atypical or mixed type
+     F00.9 Dementia in Alzheimer's disease, unspecified
+
+F01 Vascular dementia
+     F01.0 Vascular dementia of acute onset
+     F01.1 Multi-infarct dementia
+     F01.2 Subcortical vascular dementia
+     F01.3 Mixed cortical and subcortical vascular dementia
+     F01.8 Other vascular dementia
+     F01.9 Vascular dementia, unspecified
+
+F02 Dementia in other diseases classified elsewhere
+     F02.0 Dementia in Pick's disease
+     F02.1 Dementia in Creutzfeldt - Jakob disease
+     F02.2 Dementia in Huntington's disease
+     F02.3 Dementia in Parkinson's disease
+     F02.4 Dementia in human immunodeficiency virus [HIV] disease
+     F02.8 Dementia in other specified diseases classified elsewhere
+
+F03 Unspecified dementia
+
+A fifth character may be used to specifiy dementia in F00-F03, as follows:
+           .xO Without additional symptoms
+           .xl Other symptoms, predominantly delusional
+           .x2 Other symptoms, predominantly hallucinatory
+           .x3 Other symptoms, predominantly depressive
+           ,x4 Other mixed symptoms
+
+F04 Organic amnesic syndrome, not induced by alcohol and other psycho-
+     active substances
+
+
+ 42
+
+
+                                F00-F09 ORGANIC MENTAL DISORDERS
+
+F05 Delirium, not induced by alcohol and other psychoactive substances
+    F05.0 Delirium, not superimposed on dementia, so described
+    F05.1 Delirium, superimposed on dementia
+    F05.8 Other delirium
+    F05.9 Delirium, unspecified
+
+F06 Other mental disorders due to brain damage and dysfunction and to
+    physical disease
+    F06.0 Organic hallucinosis
+    F06.1 Organic catatonic disorder
+    F06.2 Organic delusional [schizophrenia-like] disorder
+    F06.3 Organic mood [affective] disorders
+         .30 Organic manic disorder
+         .31 Organic bipolar affective disorder
+         .32 Organic depressive disorder
+         .33 Organic mixed affective disorder
+    F06.4 Organic anxiety disorder
+    F06.5 Organic dissociative disorder
+    F06.6 Organic emotionally labile [asthenic] disorder
+    F06.7 Mild cognitive disorder
+    F06.8 Other specified mental disorders due to brain damage and
+         dysfunction and to physical disease
+    F06.9 Unspecified mental disorder due to brain damage and dysfunction
+         and to physical disease
+
+F07 Personality and behavioural disorders due to brain disease, damage and
+    dysfunction
+    F07.0 Organic personality disorder
+    F07.1 Postencephalitic syndrome
+    F07.2 Postconcussional syndrome
+    F07.8 Other organic personality and behavioural disorders due to brain
+         disease, damage and dysfunction
+    F07.9 Unspecified organic personality and behavioural disorders due to
+         brain disease, damage and dysfunction
+
+F09 Unspecified organic or symptomatic mental disorder
+
+
+                                                            43
+
+
+MENTAL AND BEHAVIOURAL DISORDERS
+
+Introduction
+
+This block comprises a range of mental disorders grouped together on the
+basis of their common, demonstrable etiology in cerebral disease, brain injury,
+or other insult leading to cerebral dysfunction. The dysfunction may be primary,
+as in diseases, injuries, and insults that affect the brain directly or with predilec-
+tion; or secondary, as in systemic diseases and disorders that attack the brain
+only as one of the multiple organs or systems of the body involved. Alcohol-
+and drug-caused brain disorders, though logically belonging to this group,
+are classified under F10-F19 because of practical advantages in keeping all
+disorders due to psychoactive substance use in a single block.
+
+Although the spectrum of psychopathological manifestations of the conditions
+included here is broad, the essential features of the disorders form two main
+clusters. On the one hand, there are syndromes in which the invariable and
+most prominent features are either disturbances of cognitive functions, such
+as memory, intellect, and learning, or disturbances of the sensorium, such
+as disorders of consciousness and attention. On the other hand, there are
+syndromes of which the most conspicuous manifestations are in the areas
+of perception (hallucinations), thought contents (delusions), or mood and
+emotion (depression, elation, anxiety), or in the overall pattern of personality
+and behaviour, while cognitive or sensory dysfunction is minimal or difficult
+to ascerta in. The latter group of disorders has less secure footing in this block
+than the former because it contains many disorders that are symptomatically
+similar to conditions classified in other blocks (F20 - F29, F30 - F39, F40 - F49,
+F60 - F69) and are known to occur without gross cerebral pathological change
+or dysfunction. However, the growing evidence that a variety of cerebral and
+systemic diseases are causally related to the occurrence of such syndromes pro-
+vides sufficient justification for their inclusion here in a clinically oriented
+classification.
+
+The majority of the disorders in this block can, at least theoretically, have
+their onset at any age, except perhaps early childhood. In practice, most tend
+to start in adult life or old age. While some of these disorders are seemingly
+irreversible and progressive, others are transient or respond to currently available
+treatments.
+
+Use of the term "organic" does not imply that conditions elsewhere in this
+classification are "nonorganic" in the sense of having no cerebral substrate.
+In the present context, the term "organic" means simply that the syndrome
+so classified can be attributed to an independently diagnosable cerebral or
+
+44
+
+
+                                F00-F09 ORGANIC MENTAL DISORDERS
+
+systemic disease or disorder. The term "symptomatic" is used for those organic
+mental disorders in which cerebral involvement is secondary to a systemic
+extracerebral disease or disorder.
+
+It follows from the foregoing that, in the majority of cases, the recording
+of a diagnosis of any one of the disorders in this block will require the use
+of two codes: one for the psychopathological syndrome and another for the
+underlying disorder. The etiological code should be selected from the relevant
+chapter of the overall ICD-10 classification.
+
+Dementia
+
+A general description of dementia is given here, to indicate the minimum
+requirement for the diagnosis of dementia of any type, and is followed by
+the criteria that govern the diagnosis of more specific types.
+
+Dementia is a syndrome due to disease of the brain, usually of a chronic or
+progressive nature, in which there is disturbance of multiple higher cortical
+functions, including memory, thinking, orientation, comprehension, cal-
+culation, learning capacity, language, and judgement. Consciousness is not
+clouded. Impairments of cognitive function are commonly accompanied,
+and occasionally preceded, by deterioration in emotional control, social
+behaviour, or motivation. This syndrome occurs in Alzheimer's disease, in
+cerebrovascular disease, and in other conditions primarily or secondarily
+affecting the brain.
+
+In assessing the presence or absence of a dementia, special care should be
+taken to avoid false-positive identification: motivational or emotional factors,
+particularly depression, in addition to motor slowness and general physical
+frailty, rather than loss of intellectual capacity, may account for failure to
+perform.
+
+Dementia produces an appreciable decline in intellectual functioning, and usually
+some interference with personal activities of daily living, such as washing, dress-
+ing, eating, personal hygiene, excretory and toilet activities. How such a decline
+manifests itself will depend largely on the social and cultural setting in which
+the patient lives. Changes in role performance, such as lowered ability to keep
+or find a job, should not be used as criteria of dementia because of the large
+cross-cultural differences that exist in what is appropriate, and because there
+may be frequent, externally imposed changes in the availability of work within
+a particular culture.
+
+                                                            45
+
+
+MENTAL AND BEHAVIOURAL DISORDERS
+
+If depressive symptoms are present but the criteria for depressive episode
+(F32.0-F32.3) are not fulfilled, they can be recorded by means of a fifth
+character. The presence of hallucinations or delusions may be treated similarly.
+
+.xO Without additional symptoms
+,x\ Other symptoms, predominantly delusional
+.x2 Other symptoms, predominantly hallucinatory
+.x3 Other symptoms, predominantly depressive
+.x4 Other mixed symptoms
+
+Diagnostic guidelines
+The primary requirement for diagnosis is evidence of a decline in both memory
+and thinking which is sufficient to impair personal activities of daily living,
+as described above. The impairment of memory typically affects the registra-
+tion, storage, and retrieval of new information, but previously learned and
+familiar material may also be lost, particularly in the later stages. Dementia
+is more than dysmnesia: there is also impairment of thinking and of reasoning
+capacity, and a reduction in the flow of ideas. The processing of incoming
+information is impaired, in that the individual finds it increasingly difficult
+to attend to more than one stimulus at a time, such as taking part in a conver-
+sation with several persons, and to shift the focus of attention from one topic
+to another. If dementia is the sole diagnosis, evidence of clear consciousness
+is required. However, a double diagnosis of delirium superimposed upon
+dementia is common (F05.1). The above symptoms and impairments should
+have been evident for at least 6 months for a confident clinical diagnosis of
+dementia to be made.
+
+Differential diagnosis. Consider: a depressive disorder (F30-F39), which
+may exhibit many of the features of an early dementia, especially memory
+impairment, slowed thinking, and lack of spontaneity; delirium (F05); mild
+or moderate mental retardation (F70-F71); states of subnormal cognitive
+functioning attributable to a severely impoverished social environment and
+limited education; iatrogenic mental disorders due to medication (F06.-).
+
+Dementia may follow any other organic mental disorder classified in this block,
+or coexist with some of them, notably delirium (see F05.1).
+
+
+46
+
+
+                                F00-F09 ORGANIC MENTAL DISORDERS
+
+•ami Dementia in Alzheimer's disease
+
+        Alzheimer's disease is a primary degenerative cerebral disease of
+        unknown etiology, with characteristic neuropathological and
+        neurochemical features. It is usually insidious in onset and develops
+        slowly but steadily over a period of years. This period can be as
+        short as 2 or 3 years, but can occasionally be considerably longer.
+        The onset can be in middle adult life or even earlier (Alzheimer's
+        disease with early onset), but the incidence is higher in later life
+        (Alzheimer's disease with late onset). In cases with onset before the
+        age of 65 - 70, there is the likelihood of a family history of a similar
+        dementia, a more rapid course, and prominence of features of tem-
+        poral and parietal lobe damage, including dysphasia or dyspraxia.
+        In cases with a later onset, the course tends to be slower and to be
+        characterized by more general impairment of higher cortical func-
+        tions. Patients with Down's syndrome are at high risk of developing
+        Alzheimer's disease.
+
+        There are characteristic changes in the brain: a marked reduction
+        in the population of neurons, particularly in the hippocampus,
+        substantia innominata, locus ceruleus, and temporoparietal and fron-
+        tal cortex; appearance of neurofibrillary tangles made of paired helical
+        filaments; neuritic (argentophil) plaques, which consist largely of
+        amyloid and show a definite progression in their development
+        (although plaques without amyloid are also known to exist); and
+        granulovacuolar bodies. Neurochemical changes have also been
+        found, including a marked reduction in the enzyme choline acetyl-
+        transferase, in acetylcholine itself, and in other neurotransmitters
+        and neuromodulators.
+
+        As originally described, the clinical features are accompanied by the
+        above brain changes. However, it now appears that the two do not
+        always progress in parallel: one may be indisputably present with
+        only minimal evidence of the other. Nevertheless, the clinical features
+        of Alzheimer's disease are such that it is often possible to make a
+        presumptive diagnosis on clinical grounds alone.
+
+        Dementia in Alzheimer's disease is at present irreversible.
+
+
+                                                            47
+
+
+MENTAL AND BEHAVIOURAL DISORDERS
+
+        Diagnostic guidelines
+        The following features are essential for a definite diagnosis:
+        (a) Presence of a dementia as described above.
+        (b) Insidious onset with slow deterioration. While the onset usually
+           seems difficult to pinpoint in time, realization by others that
+           the defects exist may come suddenly. An apparent plateau may
+           occur in the progression.
+        (c) Absence of clinical evidence, or findings from special investiga-
+           tions, to suggest that the mental state may be due to other systemic
+           or brain disease which can induce a dementia (e.g. hypo-
+           thyroidism, hypercalcaemia, vitamin B12 deficiency, niacin
+           deficiency, neurosyphilis, normal pressure hydrocephalus, or
+           subdural haematoma).
+        (d) Absence of a sudden, apoplectic onset, or of neurological signs
+           of focal damage such as hemiparesis, sensory loss, visual field
+           defects, and incoordination occurring early in the illness (although
+           these phenomena may be superimposed later).
+
+        In a certain proportion of cases, the features of Alzheimer's disease
+        and vascular dementia may both be present. In such cases, double
+        diagnosis (and coding) should be made. When the vascular dementia
+        precedes the Alzheimer's disease, it may be impossible to diagnose
+        the latter on clinical grounds.
+
+        Includes: primary degenerative dementia of the Alzheimer's type
+
+        Differential diagnosis. Consider: a depressive disorder (F30 - F39);
+        delirium (F05. -); organic amnesic syndrome (F04); other primary
+        dementias, such as in Pick's, Creutzfeldt-Jakob or Huntington's
+        disease (F02. -); secondary dementias associated with a variety of
+        physical diseases, toxic states, etc. (F02.8); mild, moderate or severe
+        mental retardation (F70 - F72).
+
+        Dementia in Alzheimer's disease may coexist with vascular dementia
+        (to be coded F00.2), as when cerebrovascular episodes (multi-infarct
+        phenomena) are superimposed on a clinical picture and history
+        suggesting Alzheimer's disease. Such episodes may result in sudden
+        exacerbations of the manifestations of dementia. According to
+        postmortem findings, both types may coexist in as many as 10 - 15%
+        of all dementia cases.
+
+48
+
+
+                                F00-F09 ORGANIC MENTAL DISORDERS
+
+F00.0 Dementia in Alzheimer's disease with early onset
+        Dementia in Alzheimer's disease beginning before the age of 65. There
+        is relatively rapid deterioration, with marked multiple disorders of
+        the higher cortical functions. Aphasia, agraphia, alexia, and apraxia
+        occur relatively early in the course of the dementia in most cases.
+
+        Diagnostic guidelines
+        As for dementia, described above, with onset before the age of
+        65 years, and usually with rapid progression of symptoms. Family
+        history of Alzheimer's disease is a contributory but not necessary
+        factor for the diagnosis, as is a family history of Down's syndrome
+        or of lymphoma.
+
+        Includes: Alzheimer's disease, type 2
+                presenile dementia, Alzheimer's type
+
+F00.1 Dementia in Alzheimer's disease with late onset
+        Dementia in Alzheimer's disease where the clinically observable onset
+        is after the age of 65 years and usually in the late 70s or thereafter,
+        with a slow progression, and usually with memory impairment as
+        the principal feature.
+
+        Diagnostic guidelines
+        As for dementia, described above, with attention to the presence
+        or absence of features differentiating the disorder from the early-
+        onset subtype (F00.0).
+
+        Includes: Alzheimer's disease, type 1
+                senile dementia, Alzheimer's type
+
+F00.2 Dementia in Alzheimer's disease, atypical or mixed type
+        Dementias that do not fit the descriptions and guidelines for either
+        F00.0 or F00.1 should be classified here; mixed Alzheimer's and
+        vascular dementias are also included here.
+
+F00.9 Dementia in Alzheimer's disease, unspecified
+
+
+                                                            49
+
+
+MENTAL AND BEHAVIOURAL DISORDERS
+
+|gifj| Vascular dementia
+
+        Vascular (formerly arteriosclerotic) dementia, which includes multi-
+        infarct dementia, is distinguished from dementia in Alzheimer's
+        disease by its history of onset, clinical features, and subsequent course.
+        Typically, there is a history of transient ischaemic attacks with brief
+        impairment of consciousness, fleeting pareses, or visual loss. The
+        dementia may also follow a succession of acute cerebrovascular
+        accidents or, less commonly, a single major stroke. Some impair-
+        ment of memory and thinking then becomes apparent. Onset, which
+        is usually in later life, can be abrupt, following one particular
+        ischaemic episode, or there may be more gradual emergence. The
+        dementia is usually the result of infarction of the brain due to vascular
+        diseases, including hypertensive cerebrovascular disease. The infarcts
+        are usually small but cumulative in their effect.
+
+        Diagnostic guidelines
+        The diagnosis presupposes the presence of a dementia as described
+        above. Impairment of cognitive function is commonly uneven, so
+        that there may be memory loss, intellectual impairment, and focal
+        neurological signs. Insight and judgement may be relatively well
+        preserved. An abrupt onset or a stepwise deterioration, as well as
+        the presence of focal neurological signs and symptoms, increases the
+        probability of the diagnosis; in some cases, confirmation can be
+        provided only by computerized axial tomography or, ultimately,
+        neuropathological examination.
+
+        Associated features are: hypertension, carotid bruit, emotional lability
+        with transient depressive mood, weeping or explosive laughter, and
+        transient episodes of clouded consciousness or delirium, often pro-
+        voked by further infarction. Personality is believed to be relatively
+        well preserved, but personality changes may be evident in a propor-
+        tion of cases with apathy, disinhibition, or accentuation of previous
+        traits such as egocentricity, paranoid attitudes, or irritability.
+
+        Includes: arteriosclerotic dementia
+
+        Differential diagnosis. Consider: delirium (F05. -); other dementia,
+        particularly in Alzheimer's disease (F00. -); mood [affective] disorders
+        (F30-F39); mild or moderate mental retardation (F70-F71); sub-
+        dural haemorrhage (traumatic (S06.5), nontraumatic (162.0)).
+
+50
+
+
+                                F00-F09 ORGANIC MENTAL DISORDERS
+
+        Vascular dementia may coexist with dementia in Alzheimer's disease
+        (to be coded F00.2), as when evidence of a vascular episode is superim-
+        posed on a clinical picture and history suggesting Alzheimer's disease.
+
+F01.0 Vascular dementia of acute onset
+        Usually develops rapidly after a succession of strokes from
+        cerebrovascular thrombosis, embolism, or haemorrhage. In rare cases,
+        a single large infarction may be the cause.
+
+F01.1 Multi-infarct dementia
+        This is more gradual in onset than the acute form, following a number
+        of minor ischaemic episodes which produce an accumulation of in-
+        farcts in the cerebral parenchyma.
+
+        Includes: predominantly cortical dementia
+
+F01.2 Subcortical vascular dementia
+        There may be a history of hypertension and foci of ischaemic destruc-
+        tion in the deep white matter of the cerebral hemispheres, which can
+        be suspected on clinical grounds and demonstrated on computerized
+        axial tomography scans. The cerebral cortex is usually preserved and
+        this contrasts with the clinical picture, which may closely resemble
+        that of dementia in Alzheimer's disease. (Where diffuse demyelination
+        of white matter can be demonstrated, the term "Binswanger's
+        encephalopathy" may be used.)
+
+F01.3 Mixed cortical and subcortical vascular dementia
+        Mixed cortical and subcortical components of the vascular dementia
+        may be suspected from the clinical features, the results of investiga-
+        tions (including autopsy), or both.
+
+F01.8 Other vascular dementia
+
+F01.9 Vascular dementia, unspecified
+
+|gi£| Dementia in other diseases classified elsewhere
+
+        Cases of dementia due, or presumed to be due, to causes other than
+        Alzheimer's disease or cerebrovascular disease. Onset may be at any
+        time in life, though rarely in old age.
+                                                            51
+
+
+MENTAL AND BEHAVIOURAL DISORDERS
+
+        Diagnostic guidelines
+        Presence of a dementia as described above; presence of features
+        characteristic of one of the specified syndromes, as set out in the
+        following categories.
+
+F02.0 Dementia in Pick's disease
+        A progressive dementia, commencing in middle life (usually between
+        50 and 60 years), characterized by slowly progressing changes of
+        character and social deterioration, followed by impairment of
+        intellect, memory, and language functions, with apathy, euphoria,
+        and (occasionally) extrapyramidal phenomena. The neuropathological
+        picture is one of selective atrophy of the frontal and temporal lobes,
+        but without the occurrence of neuritic plaques and neurofibrillary
+        tangles in excess of that seen in normal aging. Cases with early onset
+        tend to exhibit a more malignant course. The social and behavioural
+        manifestations often precede frank memory impairment.
+
+        Diagnostic guidelines
+        The following features are required for a definite diagnosis:
+        (a) a progressive dementia;
+        (b) a predominance of frontal lobe features with euphoria, emotional
+           blunting, and coarsening of social behaviour, disinhibition, and
+           either apathy or restlessness;
+        (c) behavioural manifestations, which commonly precede frank
+           memory impairment.
+
+        Frontal lobe features are more marked than temporal and parietal,
+        unlike Alzheimer's disease.
+
+        Differential diagnosis. Consider: dementia in Alzheimer's disease
+        (F00); vascular dementia (F01); dementia secondary to other disorders
+        such as neurosyphilis (F02.8); normal pressure hydrocephalus
+        (characterized by extreme psychomotor slowing, and gait and sphincter
+        disturbances) (G91.2); other neurological or metabolic disorders.
+
+F02.1 Dementia in Creutzfeldt - Jakob disease
+        A progressive dementia with extensive neurological signs, due to
+        specific neuropathological changes (subacute spongiform
+        encephalopathy) that are presumed to be caused by a transmissible
+        agent. Onset is usually in middle or later life, typically in the fifth
+
+52
+
+
+                                F00-F09 ORGANIC MENTAL DISORDERS
+
+        decade, but may be at any adult age. The course is subacute, leading
+        to death within 1-2 years.
+
+        Diagnostic guidelines
+        Creutzfeldt - Jakob disease should be suspected in all cases of a
+        dementia that progresses fairly rapidly over months to 1 or 2 years
+        and that is accompanied or followed by multiple neurological
+        symptoms. In some cases, such as the so-called amyotrophic form,
+        the neurological signs may precede the onset of the dementia.
+
+        There is usually a progressive spastic paralysis of the limbs, accom-
+        panied by extrapyramidal signs with tremor, rigidity, and
+        choreoathetoid movements. Other variants may include ataxia, visual
+        failure, or muscle fibrillation and atrophy of the upper motor neuron
+        type. The triad consisting of
+        — rapidly progressing, devastating dementia,
+        — pyramidal and extrapyramidal disease with myoclonus, and
+        — a characteristic (triphasic) electroencephalogram
+        is thought to be highly suggestive of this disease.
+
+        Differential diagnosis. Consider: Alzheimer's disease (F00.-) or
+        Pick's disease (F02.0); Parkinson's disease (F02.3); postencephalitic
+        parkinsonism (G21.3).
+
+        The rapid course and early motor involvement should suggest
+        Creutzfeldt - Jakob disease.
+
+F02.2 Dementia in Huntington's disease
+        A dementia occurring as part of a widespread degeneration of the
+        brain. Huntington's disease is transmitted by a single autosomal
+        dominant gene. Symptoms typically emerge in the third and fourth
+        decade, and the sex incidence is probably equal. In a proportion
+        of cases, the earliest symptoms may be depression, anxiety, or frank
+        paranoid illness, accompanied by a personality change. Progression
+        is slow, leading to death usually within 10 to 15 years.
+
+        Diagnostic guidelines
+        The association of choreiform movement disorder, dementia, and
+        family history of Huntington's disease is highly suggestive of the
+        diagnosis, though sporadic cases undoubtedly occur.
+
+                                                            53
+
+
+MENTAL AND BEHAVIOURAL DISORDERS
+
+        Involuntary choreiform movements, typically of the face, hands, and
+        shoulders, or in the gait, are early manifestations. They usually precede
+        the dementia and only rarely remain absent until the dementia is
+        very advanced. Other motor phenomena may predominate when the
+        onset is at an unusually young age (e.g. striatal rigidity) or at a late
+        age (e.g. intention tremor).
+
+        The dementia is characterized by the predominant involvement of
+        frontal lobe functions in the early stage, with relative preservation
+        of memory until later.
+
+        Includes: dementia in Huntington's chorea
+
+        Differential diagnosis. Consider: other cases of choreic movements;
+        Alzheimer's, Pick's or Creutzfeldt - Jakob disease (F00. - , F02.0,
+        F02.1).
+
+F02.3 Dementia in Parkinson's disease
+        A dementia developing in the course of established Parkinson's disease
+        (especially its severe forms). No particular distinguishing clinical
+        features have yet been demonstrated. The dementia may be different
+        from that in either Alzheimer's disease or vascular dementia; however,
+        there is also evidence that it may be the manifestation of a co-
+        occurrence of one of these conditions with Parkinson's disease. This
+        justifies the identification of cases of Parkinson's disease with
+        dementia for research until the issue is resolved.
+
+        Diagnostic guidelines
+        Dementia developing in an individual with advanced, usually severe,
+        Parkinson's disease.
+
+        Includes: dementia in paralysis agitans
+                dementia in parkinsonism
+
+        Differential diagnosis. Consider: other secondary dementias (F02.8);
+        multi-infarct dementia (FOl. 1) associated with hypertensive or diabetic
+        vascular disease; brain tumour (C70 - C72); normal pressure
+        hydrocephalus (G91.2).
+
+
+54
+
+
+                                F00-F09 ORGANIC MENTAL DISORDERS
+
+F02.4 Dementia in human immunodeficiency virus [HIV] disease
+        A disorder characterized by cognitive deficits meeting the clinical
+        diagnostic criteria for dementia, in the absence of a concurrent
+        illness or condition other than HIV infection that could explain the
+        findings.
+
+        HIV dementia typically presents with complaints of forgetfulness,
+        slowness, poor concentration, and difficulties with problem-solving
+        and reading. Apathy, reduced spontaneity, and social withdrawal
+        are common, and in a significant minority of affected individuals
+        the illness may present atypically as an affective disorder, psychosis,
+        or seizures. Physical examination often reveals tremor, impaired rapid
+        repetitive movements, imbalance, ataxia, hypertonia, generalized
+        hyperreflexia, positive frontal release signs, and impaired pursuit and
+        saccadic eye movements.
+
+        Children also develop an HIV-associated neurodevelopmental disorder
+        characterized by developmental delay, hypertonia, microcephaly, and
+        basal ganglia calcification. The neurological involvement most often
+        occurs in the absence of opportunistic infections and neoplasms, which
+        is not the case for adults.
+
+        HIV dementia generally, but not invariably, progresses quickly (over
+        weeks or months) to severe global dementia, mutism, and death.
+
+        Includes: AIDS - dementia complex
+                HIV encephalopathy or subacute encephalitis
+
+ F02.8 Dementia in other specified diseases classified elsewhere
+        Dementia can occur as a manifestation or consequence of a variety
+        of cerebral and somatic conditions. To specify the etiology, the ICD-10
+        code for the underlying condition should be added.
+
+        Parkinsonism - dementia complex of Guam should also be coded
+        here (identified by a fifth character, if necessary). It is a rapidly
+        progressing dementia followed by extrapyramidal dysfunction and,
+        in some cases, amyotrophic lateral sclerosis. The disease was originally
+        described on the island of Guam where it occurs with high frequency
+        in the indigenous population, affecting twice as many males as
+        females; it is now known to occur also in Papua New Guinea and
+        Japan.
+
+                                                            55
+
+
+MENTAL AND BEHAVIOURAL DISORDERS
+
+        Includes: dementia in:
+                carbon monoxide poisoning (T58)
+                cerebral lipidosis (E75.-)
+                epilepsy (G40.-)
+                general paralysis of the insane (A52.1)
+                hepatolenticular degeneration (Wilson's disease) (E83.0)
+                hypercalcaemia (E83.5)
+                hypothyroidism, acquired (E00. - , E02)
+                intoxications (T36 — T65)
+                multiple sclerosis (G35)
+                neurosyphilis (A52.1)
+                niacin deficiency [pellagra] (E52)
+                polyarteritis nodosa (M30.0)
+                systemic lupus erythematosus (M32.-)
+                trypanosomiasis (African B56.-, American B57.-)
+                vitamin B12 deficiency (E53.8)
+
+|g£] Unspecified dementia
+
+        This category should be used when the general criteria for the diagnosis
+        of dementia are satisfied, but when it is not possible to identify one
+        of the specific types (F00.0-F02.9).
+
+        Includes: presenile or senile dementia NOS
+                presenile or senile psychosis NOS
+                primary degenerative dementia NOS
+
+E3 Organic amnesic syndrome, not induced by alcohol
+        and other psychoactive substances
+
+        A syndrome of prominent impairment of recent and remote memory.
+        While immediate recall is preserved, the ability to learn new material
+        is markedly reduced and this results in anterograde amnesia and
+        disorientation in time. Retrograde amnesia of varying intensity is
+        also present but its extent may lessen over time if the underlying
+        lesion or pathological process has a tendency to recover. Confabula-
+        tion may be a marked feature but is not invariably present. Percep-
+        tion and other cognitive functions, including the intellect, are usually
+        intact and provide a background against which the memory distur-
+
+56
+
+
+                               F00-F09 ORGANIC MENTAL DISORDERS
+
+       bance appears as particularly striking. The prognosis depends on
+       the course of the underlying lesion (which typically affects the
+       hypothalamic - diencephalic system or the hippocampal region);
+       almost complete recovery is, in principle, possible.
+
+       Diagnostic guidelines
+       For a definitive diagnosis it is necessary to establish:
+       (a) presence of a memory impairment manifest in a defect of recent
+          memory (impaired learning of new material); anterograde and
+          retrograde amnesia, and a reduced ability to recall past experiences
+          in reverse order of their occurrence;
+       (b) history or objective evidence of an insult to, or a disease of,
+          the brain (especially with bilateral involvement of the diencephalic
+          and medial temporal structures);
+       (c) absence of a defect in immediate recall (as tested, for example,
+          by the digit span), of disturbances of attention and consciousness,
+          and of global intellectual impairment.
+
+       Confabulations, lack of insight, and emotional changes (apathy, lack
+       of initiative) are additional, though not in every case necessary,
+       pointers to the diagnosis.
+
+       Includes: Korsakov's syndrome or psychosis, nonalcoholic
+
+       Differential diagnosis. This disorder should be distinguished from
+       other organic syndromes in which memory impairment is prominent
+       (e.g. dementia or delirium), from dissociative amnesia (F44.0), from
+       impaired memory function in depressive disorders (F30-F39), and
+       from malingering presenting with a complaint of memory loss (Z76.5).
+       Korsakov's syndrome induced by alcohol or drugs should not be
+       coded here but in the appropriate section (Fix.6).
+
+123 Delirium, not induced by alcohol and other
+        psychoactive substances
+
+       An etiologically nonspecific syndrome characterized by concurrent
+        disturbances of consciousness and attention, perception, thinking,
+        memory, psychomotor behaviour, emotion, and the sleep-wake
+        cycle. It may occur at any age but is most common after the age
+        of 60 years. The delirious state is transient and of fluctuating
+
+                                                           57
+
+
+MENTAL AND BEHAVIOURAL DISORDERS
+
+        intensity; most cases recover within 4 weeks or less. However, delirium
+        lasting, with fluctuations, for up to 6 months is not uncommon,
+        especially when arising in the course of chronic liver disease,
+        carcinoma, or subacute bacterial endocarditis. The distinction that
+        is sometimes made between acute and subacute delirium is of little
+        clinical relevance; the condition should be seen as a unitary syndrome
+        of variable duration and severity ranging from mild to very severe.
+        A delirious state may be superimposed on, or progress into, dementia.
+
+        This category should not be used for states of delirium associated
+        with the use of psychoactive drugs specified in F10-F19. Delirious
+        states due to prescribed medication (such as acute confusional states
+        in elderly patients due to antidepressants) should be coded here.
+        In such cases, the medication concerned should also be recorded by
+        means of an additional T code from Chapter XIX of ICD-10.
+
+        Diagnostic guidelines
+        For a definite diagnosis, symptoms, mild or severe, should be present
+        in each one of the following areas:
+        (a) impairment of consciousness and attention (on a continuum from
+           clouding to coma; reduced ability to direct, focus, sustain, and
+           shift attention);
+        (b) global disturbance of cognition (perceptual distortions, illusions
+           and hallucinations — most often visual; impairment of abstract
+           thinking and comprehension, with or without transient delusions,
+           but typically with some degree of incoherence; impairment of
+           immediate recall and of recent memory but with relatively intact
+           remote memory; disorientation for time as well as, in more severe
+           cases, for place and person);
+        (c) psychomotor disturbances (hypo- or hyperactivity and unpre-
+           dictable shifts from one to the other; increased reaction time;
+           increased or decreased flow of speech; enhanced startle reaction);
+        (d) disturbance of the sleep - wake cycle (insomnia or, in severe cases,
+           total sleep loss or reversal of the sleep-wake cycle; daytime
+           drowsiness; nocturnal worsening of symptoms; disturbing dreams
+           or nightmares, which may continue as hallucinations after
+           awakening);
+        (e) emotional disturbances, e.g. depression, anxiety or fear, irri-
+           tability, euphoria, apathy, or wondering perplexity.
+
+
+58
+
+
+                               F00-F09 ORGANIC MENTAL DISORDERS
+
+       The onset is usually rapid, the course diurnally fluctuating, and the
+       total duration of the condition less than 6 months. The above clinical
+       picture is so characteristic that a fairly confident diagnosis of delirium
+       can be made even if the underlying cause is not clearly established.
+       In addition to a history of an underlying physical or brain disease,
+       evidence of cerebral dysfunction (e.g. an abnormal electroen-
+       cephalogram, usually but not invariably showing a slowing of the
+       background activity) may be required if the diagnosis is in doubt.
+
+       Includes: acute brain syndrome
+               acute confusional state (nonalcoholic)
+               acute infective psychosis
+               acute organic reaction
+               acute psycho-organic syndrome
+
+       Differential diagnosis. Delirium should be distinguished from other
+       organic syndromes, especially dementia (F00-F03), from acute and
+       transient psychotic disorders (F23.-), and from acute states in
+       schizophrenia (F20. -) or mood [affective] disorders (F30-F39) in
+       which confusional features may be present. Delirium, induced by
+       alcohol and other psychoactive substances, should be coded in the
+       appropriate section (Flx.4).
+
+F05.0 Delirium, not superimposed on dementia, so described
+       This code should be used for delirium that is not superimposed upon
+       pre-existing dementia.
+
+F05.1 Delirium, superimposed on dementia
+       This code should be used for conditions meeting the above criteria
+       but developing in the course of a dementia (F00-F03).
+
+F05.8 Other delirium
+       Includes: delirium of mixed origin
+                subacute confusional state or delirium
+
+F05.9 Delirium, unspecified
+
+
+                                                           59
+
+
+MENTAL AND BEHAVIOURAL DISORDERS
+
+•at in Other mental disorders due to brain damage
+        and dysfunction and to physical disease
+
+        This category includes miscellaneous conditions causally related to
+        brain dysfunction due to primary cerebral disease, to systemic disease
+        affecting the brain secondarily, to endocrine disorders such as
+        Cushing's syndrome or other somatic illnesses, and to some exogenous
+        toxic substances (but excluding alcohol and drugs classified under
+        F10-F19) or hormones. These conditions have in common clinical
+        features that do not by themselves allow a presumptive diagnosis
+        of an organic mental disorder, such as dementia or delirium. Rather,
+        the clinical manifestations resemble, or are identical with, those of
+        disorders not regarded as "organic" in the specific sense restricted
+        to this block of the classification. Their inclusion here is based on
+        the hypothesis that they are directly caused by cerebral disease or
+        dysfunction rather than resulting from either a fortuitous associa-
+        tion with such disease or dysfunction, or a psychological reaction
+        to its symptoms, such as schizophrenia-like disorders associated with
+        long-standing epilepsy.
+
+        The decision to classify a clinical syndrome here is supported by
+        the following:
+        (a) evidence of cerebral disease, damage or dysfunction, or of
+           systemic physical disease, known to be associated with one of
+           the listed syndromes;
+        (b) a temporal relationship (weeks or a few months) between the
+           development of the underlying disease and the onset of the
+           mental syndrome;
+        (c) recovery from the mental disorder following removal or improve-
+           ment of the underlying presumed cause;
+        (d) absence of evidence to suggest an alternative cause of the mental
+           syndrome (such as a strong family history or precipitating stress).
+
+        Conditions (a) and (b) justify a provisional diagnosis; if all four are
+        present, the certainty of diagnostic classification is significantly in-
+        creased.
+
+        The following are among the conditions known to increase the relative
+        risk for the syndromes classified here: epilepsy; limbic encephalitis;
+        Huntington's disease; head trauma; brain neoplasms; extracranial
+        neoplasms with remote CNS effects (especially carcinoma of the
+
+60
+
+
+                                F00-F09 ORGANIC MENTAL DISORDERS
+
+        pancreas); vascular cerebral disease, lesions, or malformations;
+        lupus erythematosus and other collagen diseases; endocrine disease
+        (especially hypo- and hyperthyroidism, Cushing's disease); metabolic
+        disorders (e.g. hypoglycaemia, porphyria, hypoxia); tropical infec-
+        tious and parasitic diseases (e.g. trypanosomiasis); toxic effects of
+        nonpsychotropic drugs (propranolol, levodopa, methyldopa, steroids,
+        antihypertensives, antimalarials).
+
+        Excludes: mental disorders associated with delirium (F05.-)
+                 mental disorders associated with dementia as classified
+                 in F00-F03
+
+F06.0 Organic hallucinosis
+        A disorder of persistent or recurrent hallucinations, usually visual
+        or auditory, that occur in clear consciousness and may or may not
+        be recognized by the subject as such. Delusional elaboration of the
+        hallucinations may occur, but insight is not infrequently preserved.
+
+        Diagnostic guidelines
+        In addition to the general criteria in the introduction to F06 above,
+        there should be evidence of persistent or recurrent hallucinations in
+        any modality; no clouding of consciousness; no significant intellec-
+        tual decline; no predominant disturbance of mood; and no
+        predominance of delusions.
+
+        Includes: Dermatozoenwahn
+                organic hallucinatory state (nonalcoholic)
+
+        Excludes: alcoholic hallucinosis (F10.52)
+                 schizophrenia (F20. -)
+
+F06.1 Organic catatonic disorder
+        A disorder of diminished (stupor) or increased (excitement)
+        psychomotor activity associated with catatonic symptoms. The
+        extremes of psychomotor disturbance may alternate. It is not known
+        whether the full range of catatonic disturbances described in
+        schizophrenia occurs in such organic states, nor has it been con-
+        clusively determined whether an organic catatonic state may occur
+        in clear consciousness or whether it is always a manifestation of
+        delirium, with subsequent partial or total amnesia. This calls for
+        caution in making this diagnosis and for a careful delimitation of
+
+                                                            61
+
+
+MENTAL AND BEHAVIOURAL DISORDERS
+
+        the condition from delirium. Encephalitis and carbon monoxide
+        poisoning are presumed to be associated with this syndrome more
+        often than other organic causes.
+
+        Diagnostic guidelines
+        The general criteria for assuming organic etiology, laid down in the
+        introduction to F06, must be met. In addition, there should be one
+        of the following:
+        (a) stupor (diminution or complete absence of spontaneous move-
+           ment with partial or complete mutism, negativism, and rigid
+           posturing);
+        (b) excitement (gross hypermotility with or without a tendency to
+           assaultiveness);
+        (c) both (shifting rapidly and unpredictably from hypo- to hyper-
+           activity).
+
+        Other catatonic phenomena that increase confidence in the diagnosis
+        are: stereotypies, waxy flexibility, and impulsive acts.
+
+        Excludes: catatonic schizophrenia (20.2)
+                 dissociative stupor (F44.2)
+                 stupor NOS (R40.1)
+
+F06.2 Organic delusional [schizophrenia-like] disorder
+        A disorder in which persistent or recurrent delusions dominate the
+        clinical picture. The delusions may be accompanied by hallucina-
+        tions but are not confined to their content. Features suggestive of
+        schizophrenia, such as bizarre delusions, hallucinations, or thought
+        disorder, may also be present.
+
+        Diagnostic guidelines
+        The general criteria for assuming an organic etiology, laid down in
+        the introduction to F06, must be met. In addition, there should be
+        delusions (persecutory, of bodily change, jealousy, disease, or death
+        of the subject or another person). Hallucinations, thought disorder,
+        or isolated catatonic phenomena may be present. Consciousness and
+        memory must not be affected. This diagnosis should not be made
+        if the presumed evidence of organic causation is nonspecific or limited
+        to findings such as enlarged cerebral ventricles (visualized on
+        computerized axial tomography) or "soft" neurological signs.
+
+62
+
+
+                                F00-F09 ORGANIC MENTAL DISORDERS
+
+        Includes: paranoid and paranoid-hallucinatory organic states
+                schizophrenia-like psychosis in epilepsy
+
+        Excludes: acute and transient psychotic disorders (F23.-)
+                 drug-induced psychotic disorders (Fix.5)
+                 persistent delusional disorder (F22.-)
+                 schizophrenia (F20. -)
+
+F06.3 Organic mood [affective] disorders
+        Disorders characterized by a change in mood or affect, usually
+        accompanied by a change in the overall level of activity. The only
+        criterion for inclusion of these disorders in this block is their presumed
+        direct causation by a cerebral or other physical disorder whose
+        presence must either be demonstrated independently (e.g. by means
+        of appropriate physical and laboratory investigations) or assumed
+        on the basis of adequate history information. The affective disorder
+        must follow the presumed organic factor and be judged not to
+        represent an emotional response to the patient's knowledge of
+        having, or having the symptoms of, a concurrent brain disorder.
+
+        Postinfective depression (e.g. following influenza) is a common
+        example and should be coded here. Persistent mild euphoria not
+        amounting to hypomania (which is sometimes seen, for instance,
+        in association with steroid therapy or antidepressants) should not
+        be coded here but under F06.8.
+
+        Diagnostic guidelines
+        In addition to the general criteria for assuming organic etiology,
+        laid down in the introduction to F06, the condition must meet
+        the requirements for a diagnosis of one of the disorders listed
+        under F3O-F33.
+
+        Excludes: mood [affective] disorders, nonorganic or unspecified
+                   (F30-F39)
+                 right hemispheric affective disorder (F07.8)
+
+        The following five-character codes might be used to specify the clinical
+        disorder:
+        F06.30 Organic manic disorder
+        F06.31 Organic bipolar affective disorder
+
+                                                            63
+
+
+MENTAL AND BEHAVIOURAL DISORDERS
+
+        F06.32 Organic depressive disorder
+        F06.33 Organic mixed affective disorder
+
+F06.4 Organic anxiety disorder
+        A disorder characterized by the essential descriptive features of a
+        generalized anxiety disorder (F41.1), a panic disorder (F41.0), or a
+        combination of both, but arising as a consequence of an organic
+        disorder capable of causing cerebral dysfunction (e.g. temporal lobe
+        epilepsy, thyrotoxicosis, or phaechromocytoma).
+
+        Excludes: anxiety disorders, nonorganic or unspecified (F41.-)
+
+F06.5 Organic dissociative disorder
+        A disorder that meets the requirements for one of the disorders in
+        F44. - (dissociative [conversion] disorder) and for which the general
+        criteria for organic etiology are also fulfilled (as described in the
+        introduction to this block).
+
+        Excludes: dissociative [conversion] disorders, nonorganic or
+                  unspecified (F44.-)
+
+F06.6 Organic emotionally labile [asthenic] disorder
+        A disorder characterized by marked and persistent emotional
+        incontinence or lability, fatiguability, or a variety of unpleasant
+        physical sensations (e.g. dizziness) and pains regarded as being due
+        to the presence of an organic disorder. This disorder is thought to
+        occur in association with cerebrovascular disease or hypertension more
+        often than with other causes.
+
+        Excludes: somatoform disorders, nonorganic or unspecified (F45. -)
+
+ F06.7 Mild cognitive disorder
+        This disorder may precede, accompany, or follow a wide variety
+        of infections and physical disorders, both cerebral and systemic
+         (including HIV infection). Direct neurological evidence of cerebral
+        involvement is not necessarily present, but there may nevertheless
+        be distress and interference with usual activities. The boundaries of
+        this category are still to be firmly established. When associated with
+         a physical disorder from which the patient recovers, mild cognitive
+         disorder does not last for more than a few additional weeks. This
+         diagnosis should not be made if the condition is clearly attributable
+
+ 64
+
+
+                                F00-F09 ORGANIC MENTAL DISORDERS
+
+        to a mental or behavioural disorder classified in any of the remaining
+        blocks in this book.
+
+        Diagnostic guidelines
+        The main feature is a decline in cognitive performance. This may
+        include memory impairment, learning or concentration difficulties.
+        Objective tests usually indicate abnormality. The symptoms are such
+        that a diagnosis of dementia (F00-F03), organic amnesic syndrome
+        (F04) or delirium (F05.-) cannot be made.
+
+        Differential diagnosis. The disorder can be differentiated from
+        postencephalitic syndrome (F07.1) and postconcussional syndrome
+        (F07.2) by its different etiology, more restricted range of generally
+        milder symptoms, and usually shorter duration.
+
+F06.8 Other specified mental disorders due to brain damage and
+        dysfunction and to physical disease
+        Examples are abnormal mood states occurring during treatment with
+        steroids or antidepressants.
+
+        Includes: epileptic psychosis NOS
+
+F06.9 Unspecified mental disorder due to brain damage and dysfunc-
+        tion and to physical disease
+
+Igifjfl Personality and behavioural disorders due to
+        brain disease, damage and dysfunction
+
+        Alteration of personality and behaviour can be a residual or con-
+        comitant disorder of brain disease, damage, or dysfunction. In some
+        instances, differences in the manifestation of such residual or con-
+        comitant personality and behavioural syndromes may be suggestive
+        of the type and/or localization of the intracerebral problem, but
+        the reliability of this kind of diagnostic inference should not be
+        overestimated. Thus the underlying etiology should always be sought
+        by independent means and, if known, recorded.
+
+
+                                                            65
+
+
+MENTAL AND BEHAVIOURAL DISORDERS
+
+F07.0 Organic personality disorder
+        This disorder is characterized by a significant alteration of the habitual
+        patterns of premorbid behaviour. The expression of emotions, needs,
+        and impulses is particularly affected. Cognitive functions may be
+        defective mainly or even exclusively in the areas of planning and
+        anticipating the likely personal and social consequences, as in the
+        so-called frontal lobe syndrome. However, it is now known that this
+        syndrome occurs not only with frontal lobe lesions but also with
+        lesions to other circumscribed areas of the brain.
+
+        Diagnostic guidelines
+        In addition to an established history or other evidence of brain disease,
+        damage, or dysfunction, a definitive diagnosis requires the presence
+        of two or more of the following features:
+        (a) consistently reduced ability to persevere with goal-directed
+           activities, especially those involving longer periods of time and
+           postponed gratification;
+        (b) altered emotional behaviour, characterized by emotional labili-
+           ty, shallow and unwarranted cheerfulness (euphoria, inappropriate
+           jocularity), and easy change to irritability or short-lived outbursts
+           of anger and aggression; in some instances apathy may be a more
+           prominent feature;
+        (c) expression of needs and impulses without consideration of con-
+           sequences or social convention (the patient may engage in dissocial
+           acts, such as stealing, inappropriate sexual advances, or voracious
+           eating, or may exhibit disregard for personal hygiene);
+        (d) cognitive disturbances, in the form of suspiciousness or paranoid
+           ideation, and/or excessive preoccupation with a single, usually
+           abstract, theme (e.g. religion, "right" and "wrong");
+        (e) marked alteration of the rate and flow of language production,
+           with features such as circumstantiality, over-inclusiveness,
+           viscosity, and hypergraphia;
+        (f) altered sexual behaviour (hyposexuality or change of sexual
+           preference).
+
+        Includes: frontal lobe syndrome
+                limbic epilepsy personality syndrome
+                lobotomy syndrome
+                organic pseudopsychopathic personality
+                organic pseudoretarded personality
+                postleucotomy syndrome
+
+66
+
+
+                                F00-F09 ORGANIC MENTAL DISORDERS
+
+        Excludes: enduring personality change after catastrophic experience
+                  (F62.0)
+                enduring personality change after psychiatric illness (F62.1)
+                postconcussional syndrome (F07.2)
+                 postencephalitic syndrome (F07.1)
+                 specific personality disorder (F60.-)
+
+F07.1 Postencephalitic syndrome
+        The syndrome includes residual behavioural change following recovery
+        from either viral or bacterial encephalitis. Symptoms are nonspecific
+        and vary from individual to individual, from one infectious agent
+        to another, and, most consistently, with the age of the individual
+        at the time of infection. The principal difference between this disorder
+        and the organic personality disorders is that it is often reversible.
+
+        Diagnostic guidelines
+        The manifestations may include general malaise, apathy or irritability,
+        some lowering of cognitive functioning (learning difficulties), altered
+        sleep and eating patterns, and changes in sexuality and in social
+        judgement. There may be a variety of residual neurological dysfunc-
+        tions such as paralysis, deafness, aphasia, constructional apraxia,
+        and acalculia.
+
+        Excludes: organic personality disorder (F07.0)
+
+F07.2 Postconcussional syndrome
+        The syndrome occurs following head trauma (usually sufficiently
+        severe to result in loss of consciousness) and includes a number of
+        disparate symptoms such as headache, dizziness (usually lacking
+        the features of true vertigo), fatigue, irritability, difficulty in
+        concentrating and performing mental tasks, impairment of memory,
+        insomnia, and reduced tolerance to stress, emotional excitement,
+        or alcohol. These symptoms may be accompanied by feelings of
+        depression or anxiety, resulting from some loss of self-esteem and
+        fear of permanent brain damage. Such feelings enhance the original
+        symptoms and a vicious circle results. Some patients become
+        hypochondriacal, embark on a search for diagnosis and cure, and
+        may adopt a permanent sick role. The etiology of these symptoms
+        is not always clear, and both organic and psychological factors have
+        been proposed to account for them. The nosological status of this
+        condition is thus somewhat uncertain. There is little doubt, however,
+        that this syndrome is common and distressing to the patient.
+
+                                                            67
+
+
+MENTAL AND BEHAVIOURAL DISORDERS
+
+        Diagnostic guidelines
+        At least three of the features described above should be present for
+        a definite diagnosis. Careful evaluation with laboratory techniques
+        (electroencephalography, brain stem evoked potentials, brain
+        imaging, oculonystagmography) may yield objective evidence to
+        substantiate the symptoms but results are often negative. The
+        complaints are not necessarily associated with compensation motives.
+
+        Includes: postcontusional syndrome (encephalopathy)
+                post-traumatic brain syndrome, nonpsychotic
+
+F07.8 Other organic personality and behavioural disorders due to
+        brain disease, damage and dysfunction
+        Brain disease, damage, or dysfunction may produce a variety of
+        cognitive, emotional, personality, and behavioural disorders, not all
+        of which are classifiable under the preceding rubrics. However, since
+        the nosological status of the tentative syndromes in this area is
+        uncertain, they should be coded as "other". A fifth character may
+        be added, if necessary, to identify presumptive individual entities
+        such as:
+
+        Right hemispheric organic affective disorder (changes in the ability
+        to express or comprehend emotion in individuals with right hemisphere
+        disorder). Although the patient may superficially appear to be
+        depressed, depression is not usually present: it is the expression of
+        emotion that is restricted.
+
+        Also code here:
+        (a) any other specified but presumptive syndromes of personality
+           or behavioural change due to brain disease, damage, or dysfunc-
+           tion other than those listed under F07.0-F07.2; and
+        (b) conditions with mild degrees of cognitive impairment not yet
+           amounting to dementia in progressive mental disorders such as
+           Alzheimer's disease, Parkinson's disease, etc. The diagnosis
+           should be changed when the criteria for dementia are fulfilled.
+
+        Excludes: delirium (F05.-)
+
+
+68
+
+
+                                    F00-F09 ORGANIC MENTAL DISORDERS
+
+F07.9 Unspecified organic personality and behavioural disorder
+         due to brain disease, damage and dysfunction
+
+         Includes: organic psychosyndrome
+
+•am Unspecified organic or symptomatic mental disorder
+
+         This category should only be used for recording mental disorders
+         of known organic etiology.
+
+         Includes: organic psychosis NOS
+                  symptomatic psychosis NOS
+
+         Excludes: psychosis NOS (F29)
