@@ -15,8 +15,6 @@ def init_coll(emb_api, endpoint, col_name='sample1'):
     api_key=emb_api,
     endpoint=endpoint
     )
-
-
     collection = client.get('sample1')
     collection.delete(delete_all=True)  #empty collection
     assert collection

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>390</width>
+    <height>276</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>161</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Corpus</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="newCorpus">
+      <property name="placeholderText">
+       <string>select the corpus</string>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>DSM-5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ICD-10</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>APAM-3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>临床诊断</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListWidget" name="currentCorpora">
+      <item>
+       <property name="text">
+        <string>DSM-5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>APAM-3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ICD-10</string>
+       </property>
+       <property name="foreground">
+        <brush brushstyle="Dense4Pattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="uploadButton">
+      <property name="text">
+       <string>上传</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>50</y>
+     <width>172</width>
+     <height>123</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Search Setting</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="keyword">
+      <property name="placeholderText">
+       <string>输入关键词</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="dep_key">
+      <property name="editable">
+       <bool>false</bool>
+      </property>
+      <property name="currentText">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>Select dependency factor</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>complications</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>diagnostic guidelines</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>post conditions</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="advanceButton">
+      <property name="text">
+       <string>高级设置</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="searchButton">
+      <property name="text">
+       <string>搜索</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>newCorpus</tabstop>
+  <tabstop>currentCorpora</tabstop>
+  <tabstop>uploadButton</tabstop>
+  <tabstop>keyword</tabstop>
+  <tabstop>dep_key</tabstop>
+  <tabstop>advanceButton</tabstop>
+  <tabstop>searchButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>newCorpus</sender>
+   <signal>currentTextChanged(QString)</signal>
+   <receiver>currentCorpora</receiver>
+   <slot>selectAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>110</x>
+     <y>85</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>107</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

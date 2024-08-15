@@ -5,7 +5,7 @@ from scipy.cluster.hierarchy import dendrogram, linkage, fcluster
 import numpy as np
 from tqdm import tqdm
 from dashscope import Generation
-from.embedding import generate_embeddings
+from embedding import generate_embeddings
 
 
 def plot_heatmap(related_phrases_embeddings, related_phrases, keyword):
