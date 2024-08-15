@@ -53,6 +53,7 @@ def get_phrase_embs(collection, keyword, ex_words):
         rsp1 = collection.query(generate_embeddings(ex), output_fields=['title'], topk=10)
         related_phrases += [doc.fields['title'] for doc in rsp1.output]
     
+    related_phrases = list(set(related_phrases))
     related_phrases_embeddings = [generate_embeddings(phrase) for phrase in related_phrases]
 
 

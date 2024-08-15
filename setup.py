@@ -5,15 +5,14 @@ with open("requirements.txt", encoding="utf-8") as fp:
     install_requires = [str(requirement) for requirement in parse_requirements(fp)]
  
 setup(
-    name="my_package",
+    name="psyextract",
     version="1.0.0",
-    author="Your Name",
-    author_email="your_email@example.com",
-    description="A short description of your package",
+    author="RexZhann",
+    author_email="zhanyunkai9@gmail.com",
+    description="The package contains a framework for performing relation extraction using LLMs",
     long_description="eds sdk for python",
-    license="Apache License, Version 2.0",
-    url="http://test.com",
- 
+
+
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
