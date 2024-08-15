@@ -1,0 +1,8 @@
+README.md
+setup.py
+psyextract.egg-info/PKG-INFO
+psyextract.egg-info/SOURCES.txt
+psyextract.egg-info/dependency_links.txt
+psyextract.egg-info/entry_points.txt
+psyextract.egg-info/requires.txt
+psyextract.egg-info/top_level.txt
