@@ -14,6 +14,7 @@ def exwords(keyword, stop_words=stop_words):
     return set([word for word in keyword.split() if word not in stop_words])
 
 
+
 # summarize each entry, would be helpful for paragraphs
 def para_sum(articles, keyword, dep_key, modl='qwen-max'):
 
