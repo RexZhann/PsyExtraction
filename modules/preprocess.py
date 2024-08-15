@@ -74,9 +74,3 @@ def find_related_sent(keyword, sentences, win_size=5):
         return articles[30:480]
     else:
         return articles
-
-
-folder_path = 'D:\\RexZhann\\nlp\\papers'
-
-txt_texts = read_txts_to_list(folder_path)
-pdf_texts = read_pdfs_to_list(folder_path)
