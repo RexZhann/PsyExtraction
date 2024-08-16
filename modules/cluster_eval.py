@@ -67,7 +67,7 @@ def get_rep_phrases_target(similarity_matrix, related_phrases, related_phrases_e
     return rep_phrases, rep_phrase_emb
 
 
-def get_rep_phrases_average(similarity_matrix, clusters, related_phrases, related_phrases_embeddings, k=6):
+def get_rep_phrases_average(similarity_matrix, related_phrases, related_phrases_embeddings, k=6):
     # 使用相似度矩阵进行层次聚类
     Z = linkage(1 - similarity_matrix, 'ward')  # 使用1减去相似度矩阵作为距离矩阵
 

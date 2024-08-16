@@ -12,9 +12,10 @@ def generate_embeddings(text):
 def init_coll(emb_api, endpoint, col_name='sample1'):
 
     client = Client(
-    api_key=emb_api,
-    endpoint=endpoint
-    )
+                    api_key=emb_api,
+                    endpoint=endpoint
+                    )
+    
     collection = client.get('sample1')
     collection.delete(delete_all=True)  #empty collection
     assert collection
