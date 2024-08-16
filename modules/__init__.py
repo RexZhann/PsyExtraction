@@ -1,7 +1,1 @@
-from main import *
-from cluster_eval import *
-from dependency import *
-from embedding import *
-from preprocess import *
-from tokenization import *
-from Ui_search import *
+from . import cluster_eval, dependency, embedding, preprocess, tokenization, Ui_search, Ui_winlogic

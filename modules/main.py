@@ -15,55 +15,47 @@ import fitz
 from pysbd import Segmenter
 from tqdm import tqdm
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QDialog, QFileDialog
-from Ui_search import Ui_Dialog
+from PyQt5.QtWidgets import QApplication
 from modules import *
 
 
-def search_process(keyword, dep_key, corpus, api, modl='qwen-max'):
-    
-    pass
+api = ['sk-b8ba4c6e0c9b4e7697fd3cdaaebe63f7', 
+       'sk-0R9jI2212bV7Ma7u7ba4UmX8QQ8Gt2E2060C14D5411EF9A1EB61E393DC850', 
+       'vrs-cn-0mm3ulqnq00032.dashvector.cn-hangzhou.aliyuncs.com'
+       ]
 
-class MyMainWindow(QMainWindow,Ui_Dialog): 
+def search_process(keyword, dep_key, api, modl='qwen-max', corpus='PsyExtraction\\papers', sum=False):
 
-    def __init__(self,parent =None):
-        super(MyMainWindow,self).__init__(parent)
-        self.setupUi(self)
-    
-        self.uploadButton.clicked.connect(self.on_upload_clicked)
-        self.searchButton.clicked.connect(self.on_search_clicked)
+    # preprocecss
 
-    def on_upload_clicked(self):
-        file_path, _ = QFileDialog.getOpenFileName(self,
-                                                    "上传文件",  # 对话框标题
-                                                    "",  # 起始目录，默认打开的文件夹路径
-                                                    "All Files (*);;Text Files (*.txt)")  # 文件过滤器
-        
-        # 检查用户是否选择了文件
-        if file_path:  # 如果用户没有取消操作，file_path将不是空的
-            # 在这里处理文件，例如获取文件路径
-            print(f"Selected file: {file_path}")
+    # read the txt file
+    cur_dir = os.getcwd()
+    abs_path = os.path.join(cur_dir, corpus)
 
-            # 可以在这里添加代码来处理上传的文件
-            # 例如，使用Python的内置open函数来读取文件内容
-            # with open(file_path, 'r') as file:
-            #     content = file.read()
-            #     print(content)
-        
+    # load in files in corpora
+    txt_texts = preprocess.read_txts_to_list(abs_path)
+    articles = preprocess.find_related_sent(keyword, txt_texts)
 
-    def on_search_clicked(self):
+    #set api key for generation task
+    dashscope.api_key = api[0]
+    stop_words = tokenization.stop_words
+    ex_words = ex_words = set([word for word in keyword.split() if word not in stop_words])
 
+    # tokenization
 
-        keyword = self.keyword.text()
-        corpus = self.currentCorpora.items()
-        dep_key = self.dep_key.currentText()
-        # 临时placeholder变量
-        api = [0, 0, 0]
-        modl = 'qwen-max'
-        
-        search_process(keyword, dep_key, corpus, api, modl)
-
-        print(f"Searching for: {keyword} in corpus: {corpus}")
+    # perform summarization when true
+    if sum:
+            articles = tokenization.para_sum(articles, keyword, dep_key, modl=modl)
+    #perform tokenization
+    res = tokenization.tokenizer_batch(articles, keyword, dep_key, modl=modl) 
+    phrases_llm = [re.findall(r'"(.*?)"', phrase) for phrase in res]
+    phrases_llm = tokenization.remove_sw(phrases_llm)
+    phrases_res = tokenization.exclude_key(phrases_llm)
+    dep_res = tokenization.dep_reco_batch(articles, phrases_res, keyword, dep_key, modl=modl)
+    desc_phrases = tokenization.obtain_dep_phrases(phrases_res, dep_res, ex_words)
+    # dependency
+    # embedding
+    # cluster_eval
 
 
 
@@ -71,7 +63,7 @@ def main():
     if __name__ == '__main__':
         # 创建Qt应用程序实例
         app = QApplication(sys.argv)
-        mywin = MyMainWindow()
+        mywin = Ui_winlogic.MyMainWindow()
         mywin.show()
         sys.exit(app.exec_())
 
