@@ -29,7 +29,7 @@ def read_txts_to_list(folder_path):
 
                 txt_texts.append(segmenter.segment(full_text.lower()))
 
-    return txt_texts
+    return [[re.sub(r"\n", " ", para.lower()) for para in txt_text] for txt_text in txt_texts]
 
 
 # function for loading pdf files
