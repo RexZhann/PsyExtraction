@@ -1,26 +1,13 @@
-from collections import Counter
-import seaborn as sns
-import matplotlib.pyplot as plt
-import numpy as np
 import re
 import os
 import dashscope
-from dashscope import TextEmbedding
-from dashvector import Client, Doc
-import json
-from sklearn.metrics.pairwise import cosine_similarity
-from scipy.cluster.hierarchy import dendrogram, linkage
-from dashscope import Generation
-import fitz
-from pysbd import Segmenter
-from tqdm import tqdm
 import sys
 from PyQt5.QtWidgets import QApplication
 from modules import *
+from dotenv import load_dotenv
 
 
-api = [
-       ]
+api = [os.getenv('MODEL_API'), os.getenv('VECTOR_API'), os.getenv('ENDPOINT')]
 
 def search_process(keyword, dep_key, api, modl='qwen-max', corpus='PsyExtraction/papers', sum=False):
 
