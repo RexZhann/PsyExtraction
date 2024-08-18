@@ -28,6 +28,13 @@ The primary objective of this project is to extract critical features related to
 To get started, clone this repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/yourusername/keyword-feature-extraction.git
-cd keyword-feature-extraction
 pip install -r requirements.txt
+```
+
+## Usage
+
+After setting up the environment, you can start extracting keyword features by running the main script. Ensure that your corpus is preprocessed and stored in the appropriate format.
+
+```bash
+python main.py
+```
