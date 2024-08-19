@@ -2,19 +2,21 @@ from PyQt5.QtWidgets import QMainWindow, QFileDialog, QDirModel, QListView
 from Ui_search import Ui_Dialog
 import os
 from PyQt5 import QtWidgets, QtCore
-
+from .main import search_process, api
 
 class MyMainWindow(QMainWindow,Ui_Dialog): 
 
     def __init__(self,parent =None):
         super(MyMainWindow,self).__init__(parent)
         self.setupUi(self)
-        self.currentlist = []  # 存储当前选择的文件列表
-        self.local_folder = "PsyExtraction\\papers"  # 设置本地文件夹路径
-        self.target_folder = "PsyExtraction\\papers"  # 设置目标文件夹路径
+        self.local_folder = os.path.join(os.getcwd(),"nlp\\PsyExtraction\\papers")  # 设置本地文件夹路径
+        self.currentlist = os.listdir(self.local_folder)  # 存储当前选择的文件列表
         self.populate_corpus_list()  # 初始加载文件夹列表
         self.connect_signals()
+        self.update_current_corpora_list()
 
+
+    _translate = QtCore.QCoreApplication.translate
 
     def connect_signals(self):
         self.newCorpus.currentIndexChanged.connect(self.on_corpus_changed)
@@ -23,18 +25,19 @@ class MyMainWindow(QMainWindow,Ui_Dialog):
     
 
     def populate_corpus_list(self):
-        pass
+        self.currentlist = os.listdir(self.local_folder)
 
     def on_corpus_changed(self, index):
         # 下拉列表变更时的槽函数
+        _translate = QtCore.QCoreApplication.translate
         if self.newCorpus.itemData(index) == "CLEAR":
             self.currentlist = []  # 清空当前选择的文件列表
             self.update_current_corpora_list()  # 更新显示
         else:
             # 获取选中的文件或文件夹路径
-            path = self.newCorpus.itemData(index)
-            if os.path.isfile(path):
-                self.add_to_current_list(path)  # 添加到当前选择的文件列表
+            for file in self.currentlist:
+                self.newCorpus.addItem("")
+                self.newCorpus.setItemText(0, _translate("Dialog", file)) # 添加到当前选择的文件列表
 
     def add_to_current_list(self, path):
         # 将文件添加到currentlist
@@ -60,9 +63,11 @@ class MyMainWindow(QMainWindow,Ui_Dialog):
     def on_search_clicked(self):
         # 当搜索按钮被点击时执行
         # 获取lineEdit的文本
-        search_text = self.lineEdit.text()
-        # 获取comboBox的当前选中文本
-        selected_corpus = self.comboBox.currentText()
-        
-        # 执行搜索操作...
-        print(f"Searching for: {search_text} in corpus: {selected_corpus}")
+        if self.keyword.text() != None:
+            search_text = self.keyword.text()
+            # 获取comboBox的当前选中文本
+            selected_corpus = self.dep_key.currentText()
+            # 执行搜索操作...
+            search_process(search_text, selected_corpus, api)
+        else:
+            raise KeyError("no key provided")

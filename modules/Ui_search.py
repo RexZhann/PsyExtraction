@@ -30,6 +30,8 @@ class Ui_Dialog(object):
         self.newCorpus = QtWidgets.QComboBox(self.layoutWidget)
         self.newCorpus.setDuplicatesEnabled(True)
         self.newCorpus.setObjectName("newCorpus")
+        self.newCorpus.addItem("")
+
         self.verticalLayout.addWidget(self.newCorpus)
         self.textBrowser = QtWidgets.QTextBrowser(self.layoutWidget)
         self.textBrowser.setObjectName("textBrowser")
@@ -87,6 +89,7 @@ class Ui_Dialog(object):
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
         self.label.setText(_translate("Dialog", "语料库选择"))
         self.newCorpus.setPlaceholderText(_translate("Dialog", "select the corpus"))
+        self.newCorpus.setItemText(0, _translate("Dialog", "CLEAR"))
         self.uploadButton.setText(_translate("Dialog", "上传文件"))
         self.label_2.setText(_translate("Dialog", "搜索设置"))
         self.keyword.setPlaceholderText(_translate("Dialog", "输入关键词"))

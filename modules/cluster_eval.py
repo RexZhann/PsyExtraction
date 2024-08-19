@@ -6,6 +6,9 @@ import numpy as np
 from tqdm import tqdm
 from dashscope import Generation
 from .embedding import generate_embeddings
+import re
+from sklearn.decomposition import PCA
+import pandas as pd
 
 
 def plot_heatmap(related_phrases_embeddings, related_phrases, keyword):
@@ -67,7 +70,7 @@ def get_rep_phrases_target(similarity_matrix, related_phrases, related_phrases_e
     return rep_phrases, rep_phrase_emb
 
 
-def get_rep_phrases_average(similarity_matrix, clusters, related_phrases, related_phrases_embeddings, k=6):
+def get_rep_phrases_average(similarity_matrix, related_phrases, related_phrases_embeddings, k=6):
     # 使用相似度矩阵进行层次聚类
     Z = linkage(1 - similarity_matrix, 'ward')  # 使用1减去相似度矩阵作为距离矩阵
 
@@ -156,3 +159,37 @@ def eval_retrieval_que(final_emb, keyword, collection):
     cos_score = np.dot(np.mean(final_emb, axis=0), generate_embeddings(keyword)) / (np.linalg.norm(np.mean(final_emb, axis=0)) * np.linalg.norm(generate_embeddings(keyword)))
 
     return retrieval_2, cos_score
+
+
+def translate_cn(final_phrases, model='qwen-max'):
+    prompt = f'''complete the #OBJECTIVE# based on the #CONTEXT#, and generate the output based on #STYLE# and #RESPONSE#
+            # CONTEXT #
+            You are an seasoned expert with more than 20 years experience in translating English texts into Chinese given a list of entities.
+            # OBJECTIVE #
+            translate the following list into Chinese, in the same formatting.
+
+            list of phrases: {final_phrases}
+
+            # STYLE #
+            output only the result of translation of each phrase, separated by quotation and comma.
+            Set the temperature parameter to 0 to ensure a precise output
+            # RESPONSE #
+            do not output anything other than the result of translation
+            '''
+    rsp = Generation.call(model='qwen-turbo', prompt=prompt)
+    return re.findall(r'"(.*?)"', rsp.output.text)
+
+
+def pca_features(final_phrases, final_emb):
+    embs = np.array([ph for ph in final_emb]).T
+    pca = PCA(n_components=2)
+    pca.fit(embs)
+    tr_emb = pca.transform(embs)
+    exp = pca.explained_variance_ratio_
+    loadings = pca.components_
+    argmax = np.argmax(np.abs(loadings), axis=1)
+    tr_df = pd.DataFrame(tr_emb, columns=['p1', 'p2'])
+    ld_df = pd.DataFrame(loadings, columns=[f"Dim{i+1}" for i in range(embs.shape[1])])
+    ess_features = [final_phrases[i] for i in list(argmax)]
+
+    return exp, tr_df, ld_df, ess_features
