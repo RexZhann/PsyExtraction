@@ -54,7 +54,7 @@ def tokenizer_batch(articles, keyword, dep_key, modl='qwen-max', batchsize=5):
     with tqdm(total=len(articles) // batchsize + (len(articles) % batchsize > 0)) as pbar:
         for idx, batch in enumerate(batch_generator(articles, batchsize)):
             
-            debug_info = f"Processing batch {idx + 1}/{len(articles) // batchsize + (len(articles) % batchsize > 0)} with {len(batch)} phrases"
+            debug_info = f"tokenizing batch {idx + 1}/{len(articles) // batchsize + (len(articles) % batchsize > 0)} with {len(batch)} phrases"
             
             print(f"Debug: {debug_info}")  
             
@@ -124,7 +124,7 @@ def dep_reco_batch(articles, phrases_llm, keyword, dep_key, batchsize=5, modl='q
     with tqdm(total=len(articles) // batchsize + (len(articles) % batchsize > 0)) as pbar:
         for idx, batch in enumerate(phrases_llm):
 
-            debug_info = f"Processing batch {idx + 1}/{len(art_batch) // batchsize + (len(art_batch) % batchsize > 0)} with {len(batch)} phrases"
+            debug_info = f"Dependency parsing batch {idx + 1}/{len(articles) // batchsize + (len(articles) % batchsize > 0)} with {len(batch)} phrases"
             
             print(f"Progress: {debug_info}")  
             

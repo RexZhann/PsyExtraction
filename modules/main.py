@@ -10,22 +10,25 @@ load_dotenv()
 
 api = [os.getenv('MODEL_API'), os.getenv('VECTOR_API'), os.getenv('ENDPOINT')]
 
-def search_process(keyword, dep_key, api, modl='qwen-max', corpus='nlp\\PsyExtraction\\papers', sum=False):
+def search_process(keyword, dep_key, api, win_size=5, topk=15, n_char=6, modl='qwen-max', corpus='nlp\\PsyExtraction\\papers', sum=False):
 
     # preprocecss
-
+    print(f"Searching for {keyword} in the corpora...")
     # read the txt file
     cur_dir = os.getcwd()
     abs_path = os.path.join(cur_dir, corpus)
 
     # load in files in corpora
     txt_texts = preprocess.read_txts_to_list(abs_path)
-    articles = preprocess.find_related_sent(keyword, txt_texts)
+    articles = preprocess.find_related_sent(keyword, txt_texts, win_size=win_size)
+    if len(articles) == 0:
+        print("No related sentences found in the corpora")
+        return None, None, None
 
     #set api key for generation task
     dashscope.api_key = api[0]
     stop_words = tokenization.stop_words
-    ex_words = ex_words = set([word for word in keyword.split() if word not in stop_words])
+    ex_words = set([word for word in keyword.split() if word not in stop_words])
 
     # tokenization
 
@@ -33,27 +36,30 @@ def search_process(keyword, dep_key, api, modl='qwen-max', corpus='nlp\\PsyExtra
     if sum:
             articles = tokenization.para_sum(articles, keyword, dep_key, modl=modl)
     #perform tokenization
-
+    print("Tokenizing the articles...")
     res = tokenization.tokenizer_batch(articles, keyword, dep_key, modl=modl) 
     phrases_llm = tokenization.remove_sw(res)
     phrases_res = tokenization.exclude_key(phrases_llm, keyword, stop_words)
     
     # dependency
+    print("Extracting dependency phrases...")
     dep_res = tokenization.dep_reco_batch(articles, phrases_res, keyword, dep_key, modl=modl)
     desc_phrases = tokenization.obtain_dep_phrases(phrases_res, dep_res, ex_words=ex_words)
 
     # embedding
+    print("Embedding the phrases...")
     collection = embedding.init_coll(emb_api=api[1], endpoint=api[2])
 
     embedding.process_phrases(desc_phrases, collection)
-    rel_ph, rel_emb = embedding.get_phrase_embs(collection, keyword, ex_words)
+    rel_ph, rel_emb = embedding.get_phrase_embs(collection, keyword, ex_words, topk=topk)
 
     # cluster
+    print("Plotting the clusters...")
     similarity_matrix = cluster_eval.plot_heatmap(rel_emb, rel_ph, keyword)
     cluster_eval.plot_H_cluster(similarity_matrix, keyword)
     target_emb = cluster_eval.generate_embeddings(keyword)
 
-    rep_phrases, rep_phrase_emb = cluster_eval.get_rep_phrases_target(similarity_matrix, rel_ph, rel_emb, target_emb, k=6)
+    rep_phrases, rep_phrase_emb = cluster_eval.get_rep_phrases_target(similarity_matrix, rel_ph, rel_emb, target_emb, k=n_char)
     ts_phrases = cluster_eval.translate_cn(rep_phrases)
 
     cos = cluster_eval.average_cos_sim(rep_phrase_emb)
@@ -85,6 +91,7 @@ def search_process(keyword, dep_key, api, modl='qwen-max', corpus='nlp\\PsyExtra
     for i, feature in enumerate(ess_features):
         print(f"主成分 {i+1}: {feature}")
 
+    return ts_phrases, rep_phrases, rep_phrase_emb
 
 
 keyword = 'vascular dementia'
@@ -97,8 +104,6 @@ def main():
         app = QApplication(sys.argv)
         mywin = Ui_winlogic.MyMainWindow()
         mywin.show()
-        '''res_ph, re_emb = search_process(keyword, dep_key, api)
-        print(res_ph)'''
         sys.exit(app.exec_())
 
 main()

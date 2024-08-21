@@ -72,5 +72,6 @@ def find_related_sent(keyword, sentences, win_size=5):
 
     if len(articles) > 450:
         return articles[30:480]
+
     else:
         return articles

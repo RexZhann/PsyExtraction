@@ -116,7 +116,7 @@ def retriever_batch(articles, final_phrases, batchsize=6, modl='qwen-max'):
     with tqdm(total=len(articles) // batchsize + (len(articles) % batchsize > 0)) as pbar:
         for idx, batch in enumerate(batch_generator(articles, batchsize)):
             
-            debug_info = f"Processing batch {idx + 1}/{len(articles) // batchsize + (len(articles) % batchsize > 0)} with {len(batch)} phrases"
+            debug_info = f"Retrieving batch {idx + 1}/{len(articles) // batchsize + (len(articles) % batchsize > 0)} with {len(batch)} phrases"
             
             print(f"Debug: {debug_info}")  
             
@@ -187,9 +187,22 @@ def pca_features(final_phrases, final_emb):
     tr_emb = pca.transform(embs)
     exp = pca.explained_variance_ratio_
     loadings = pca.components_
-    argmax = np.argmax(np.abs(loadings), axis=1)
+    print(loadings)
+    # 计算加权载荷绝对值
+    weighted_loadings = loadings * np.sqrt(exp.reshape(-1, 1))
+    
+    # 计算每个特征的综合得分
+    feature_scores = np.sum(np.abs(weighted_loadings), axis=1)
+    
+    # 根据综合得分对特征进行排序
+    sorted_indices = np.argsort(loadings[0])[::-1]  # 降序排序
+    sorted_features = [final_phrases[i] for i in sorted_indices]
+    print(feature_scores)
+    # 选择前N个最重要的特征
+    N = 5  # 例如选择前5个
+    ess_features = sorted_features[:N]
+
     tr_df = pd.DataFrame(tr_emb, columns=['p1', 'p2'])
-    ld_df = pd.DataFrame(loadings, columns=[f"Dim{i+1}" for i in range(embs.shape[1])])
-    ess_features = [final_phrases[i] for i in list(argmax)]
+    ld_df = pd.DataFrame(loadings, columns=[f"Dim {i+1}" for i in range(embs.shape[1])])
 
     return exp, tr_df, ld_df, ess_features

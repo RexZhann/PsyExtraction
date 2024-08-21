@@ -40,8 +40,8 @@ def process_phrases(phrases_llm, collection, batchsize=6):
         assert rsp
 
 
-def get_phrase_embs(collection, keyword, ex_words):
-    rsp = collection.query(generate_embeddings(keyword), output_fields=['title'], topk=15)
+def get_phrase_embs(collection, keyword, ex_words, topk=15):
+    rsp = collection.query(generate_embeddings(keyword), output_fields=['title'], topk=topk)
 
 
 
